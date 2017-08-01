@@ -280,7 +280,7 @@ jsPath = (source, target) ->
 
     base = if target is baseTest then baseTest else baseSource
 
-    filename = path.basename(source, path.extname(source)) + '.js'
+    filename = path.basename(source, path.extname(source)) + '.jsx'
 
     dir =      target + path.dirname(source).substring(base.length)
 
