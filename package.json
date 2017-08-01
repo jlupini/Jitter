@@ -21,7 +21,7 @@
   },
   "main": "./lib/jitter-extendscript",
   "bin": {
-    "jitter": "./bin/jitter-extendscript"
+    "jitter-extendscript": "./bin/jitter-extendscript"
   },
   "dependencies": {
     "coffee-script": "^1.12.7",
